@@ -1,27 +1,35 @@
 [![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/pG3gvzt-)
 # PCCCS495 – Term II Project
 
-## Project Title
+## Project Title: Library Management System using Object-Oriented Programming
+
 
 ---
 
-## Problem Statement (max 150 words)
+## Problem Statement:
+
+Managing books manually in libraries can lead to errors and inefficiency. This project develops a system to manage books, users, and issuing records using OOP principles.
 
 ---
 
-## Target User
+## Target User:
+
+- Students
+- Faculty
+- Librarians
 
 ---
 
-## Core Features
+## Core Features:
 
-- 
-- 
-- 
+- Add books
+- Add users
+- Issue books
+- View books
 
 ---
 
-## OOP Concepts Used
+## OOP Concepts Used:
 
 - Abstraction:
 - Inheritance:
@@ -31,13 +39,16 @@
 
 ---
 
-## Proposed Architecture Description
+## Proposed Architecture Description:
 
 ---
 
-## How to Run
+## How to Run:
+
+Compile using: javac *.java  
+Run using: java Main
 
 ---
 
-## Git Discipline Notes
-Minimum 10 meaningful commits required.
+## Git Discipline Notes:
+This project will be developed using multiple meaningful commits.
