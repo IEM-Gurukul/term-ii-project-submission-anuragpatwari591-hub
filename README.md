@@ -8,7 +8,11 @@
 
 ## Problem Statement:
 
-Managing books manually in libraries can lead to errors and inefficiency. This project develops a system to manage books, users, and issuing records using OOP principles.
+In many educational institutions and small libraries, book management is still handled manually or with inefficient systems. This leads to issues such as difficulty in tracking available books, errors in issuing and returning records, lack of proper user management, and data loss. Manual systems are time-consuming, prone to human errors, and do not provide efficient search or tracking capabilities.
+
+The objective of this project is to develop a console-based Library Management System using Object-Oriented Programming principles. The system aims to manage books, users, and issuing records in a structured and efficient way. It allows adding and viewing books, registering users, issuing books, and tracking which user has borrowed which book.
+
+The system will also incorporate key OOP concepts such as abstraction, inheritance, and polymorphism to model real-world entities like books and users. Additionally, it will include exception handling to manage invalid inputs and file handling to ensure data persistence. This project demonstrates how software solutions can improve efficiency, reduce errors, and provide a scalable approach to managing library operations.
 
 ---
 
