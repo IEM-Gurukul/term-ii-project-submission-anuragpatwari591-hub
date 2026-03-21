@@ -7,4 +7,6 @@ abstract class User {
         this.id = id;
         this.name = name;
     }
+
+    public abstract int getBorrowLimit();
 }
