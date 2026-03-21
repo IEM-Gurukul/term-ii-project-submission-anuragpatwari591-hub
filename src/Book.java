@@ -10,6 +10,8 @@ abstract class Book {
         this.author = author;
     }
 
+    public abstract boolean canBeIssued();
+
     public void display() {
         System.out.println(id + " - " + title + " by " + author);
     }
