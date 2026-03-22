@@ -2,6 +2,7 @@ public class Main {
 
     public static void main(String[] args) {
 
+        System.out.println("Library System Running...");
         LibraryManager lib = new LibraryManager();
 
         // Add sample book
