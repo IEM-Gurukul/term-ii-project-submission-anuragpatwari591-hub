@@ -35,6 +35,12 @@ public class Main {
                 System.out.print("Enter Book ID: ");
                 int id = sc.nextInt();
 
+                if (id <= 0)
+                {
+                 System.out.println("Invalid ID");
+                 continue;
+                }
+
                 System.out.print("Enter Title: ");
                 String title = sc.next();
 
