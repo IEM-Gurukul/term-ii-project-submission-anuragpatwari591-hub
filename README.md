@@ -35,15 +35,45 @@ The system will also incorporate key OOP concepts such as abstraction, inheritan
 
 ## OOP Concepts Used:
 
-- Abstraction:
-- Inheritance:
-- Polymorphism:
-- Exception Handling:
-- Collections / Threads:
+Abstraction:
+Abstract classes Book and User.
+
+Inheritance:
+Student and Faculty inherit from User, FictionBook and ReferenceBook inherit from Book.
+
+Polymorphism:
+canBeIssued() behaves differently.
+
+Exception Handling:
+Handled invalid user input using try-catch.
+
+Collections:
+Used ArrayList for storing data.
+
 
 ---
 
 ## Proposed Architecture Description:
+
+The Library Management System follows a modular object-oriented architecture with clear separation of responsibilities.
+
+The abstract classes Book and User define common properties and behaviors, while their subclasses (FictionBook, ReferenceBook, Student, Faculty) extend them using inheritance and enable polymorphism.
+
+The LibraryManager class acts as the core logic layer, handling operations such as adding books, registering users, issuing books, and searching records. It uses ArrayList collections for dynamic data management.
+
+The IssueRecord class maintains the relationship between books and users by tracking issued books.
+
+The FileHandler class manages data persistence by saving book data to files.
+
+The Main class provides a menu-driven user interface, handles user input using exception handling, and interacts with the LibraryManager.
+
+This design ensures proper separation of concerns:
+Data (Book, User, IssueRecord), Logic (LibraryManager), Persistence (FileHandler), and Interface (Main).
+
+Book → FictionBook / ReferenceBook  
+User → Student / Faculty  
+LibraryManager → handles operations  
+FileHandler → manages file storage
 
 ---
 
@@ -55,4 +85,16 @@ Run using: java Main
 ---
 
 ## Git Discipline Notes:
-This project will be developed using multiple meaningful commits.
+This project will be developed using multiple meaningful commits
+
+1. Initial project setup with base classes and README
+2. Implemented inheritance and polymorphism for Book hierarchy
+3. Implemented inheritance and polymorphism for User hierarchy
+4. Added LibraryManager for managing books and users
+5. Implemented book issuing functionality using IssueRecord
+6. Integrated core functionality into Main for system execution
+7. Implemented menu-driven system for interactive user input
+8. Added exception handling for invalid inputs
+9. Implemented file persistence for storing book data
+10. Added search and issued books tracking functionality
+11. Completed documentation and finalized project structure
