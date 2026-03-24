@@ -19,7 +19,7 @@ class LibraryManager {
         System.out.println("User added successfully");
     }
 
-    // ---------------- VIEW BOOKS ----------------
+    // ---------------- VIEW BOOKS ---------------
     public void viewBooks() {
         for (Book b : books) {
             b.display();
