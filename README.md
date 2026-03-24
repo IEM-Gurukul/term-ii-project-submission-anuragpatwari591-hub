@@ -85,7 +85,7 @@ Run using: java Main
 ---
 
 ## Git Discipline Notes:
-This project will be developed using multiple meaningful commits
+This project is developed using multiple meaningful commits
 
 1. Initial project setup with base classes and README
 2. Implemented inheritance and polymorphism for Book hierarchy
