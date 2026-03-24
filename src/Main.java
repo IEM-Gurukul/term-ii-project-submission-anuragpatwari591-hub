@@ -17,6 +17,8 @@ public class Main {
             System.out.println("3 View Books");
             System.out.println("4 Issue Book");
             System.out.println("5 Exit");
+            System.out.println("6 Search Book");              
+            System.out.println("7 View Issued Books");        
 
             System.out.print("Enter choice: ");
 
@@ -26,7 +28,7 @@ public class Main {
                 choice = sc.nextInt();
             } catch (Exception e) {
                 System.out.println("Invalid input! Enter a number.");
-                sc.next(); // clear buffer
+                sc.next();
                 continue;
             }
 
@@ -96,6 +98,18 @@ public class Main {
             else if (choice == 5) {
                 System.out.println("Exiting...");
                 break;
+            }
+
+            // ---------------- SEARCH BOOK ----------------
+            else if (choice == 6) {
+                System.out.print("Enter title: ");
+                String title = sc.next();
+                lib.searchBook(title);
+            }
+
+            // ---------------- VIEW ISSUED BOOKS ----------------
+            else if (choice == 7) {
+                lib.viewIssuedBooks();
             }
 
             else {
