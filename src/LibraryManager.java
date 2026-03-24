@@ -7,9 +7,13 @@ class LibraryManager {
     ArrayList<IssueRecord> records = new ArrayList<>();
 
     // Add Book
-    public void addBook(Book book) {
-        books.add(book);
-        System.out.println("Book added successfully");
+    public void addBook(Book book) 
+    {
+    books.add(book);
+    FileHandler.saveBooks(books);
+    System.out.println("Book added successfully");
+    }
+    
     }
 
     // Add User
