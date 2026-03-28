@@ -93,7 +93,7 @@ This project is developed using multiple meaningful commits
 4. Added LibraryManager for managing books and users
 5. Implemented book issuing functionality using IssueRecord
 6. Integrated core functionality into Main for system execution
-7. Implemented a menu-driven system for interactive user input
+7. Implemented menu-driven system for interactive user input
 8. Added exception handling for invalid inputs
 9. Implemented file persistence for storing book data
 10. Added search and issued books tracking functionality
